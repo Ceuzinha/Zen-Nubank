@@ -1,10 +1,19 @@
 # Projeto Zen
 
-Esse é um projeto simples, com o objetivo de acompanhar minhas aulas do curso de ***Desenvolvimento Web pela Descomplica com parceria a intituição NuBank***.
+Esse é um projeto simples, com o objetivo de acompanhar minhas aulas do curso de ***Desenvolvimento Web pela Descomplica em parceria com a NuBank***.
 
-## Estado Atual do Projeto - V 0.1
-Atualmente, criando a documentação junto ao repositorio do projeto, para que possamos acompanhar ao longo do tempo. 
+## V 1.0
+Nessa Versão Adicionamos:
+    
++ Pasta Img/.    
++ Pagina Index.html
+
+## Andamento do Projeto
+Foi adicionado a estrutura em HTML do site Zen, baseando-se na nova semantica do HTML5. 
+
+Pagina Index foi inspirada em recusos utilizados na durante a aula. 
 
 ## Proximos Passos..
-- Criar a estrutura em HTML do site Zen, baseando-se na nova semantica do HTML5.
-- Pensar no Desing UX/UI.
++ Criar o stylesheet da pagina Index.
++ Pensar no Desing UX/UI.
++ Uma parte propria de UX/UI no Doc.
