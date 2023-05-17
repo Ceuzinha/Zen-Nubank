@@ -16,31 +16,46 @@ header{
     background-color:#170421;
     width: 100%;
 }
-.logo{
-    position: relative;
+header > .col-md-4{
     width: 200px;
 }
-nav li a {
-    color: #ea1746;
-    padding: 40px;
+header > .col-md-8{
+    font-size: 17px;
+    letter-spacing: 4px;
+    margin-top: 44px;
+    padding-left: 100px;
 }
-nav li {
-    float: left;
+nav li a {
+    line-height:0em;
+    color: #ea1746;
+    padding: 10px;
+    text-decoration:none;
 }
 nav ul {
-    float: right;
     list-style: none;
 }
-nav{
-    font-size: 24px;
-    letter-spacing: 4px;
-    height: 30px;
-    padding-right: 40px;
-    background-color: #3e0418;
+
+/* article */
+main{
+    margin: 20px;
+}
+
+main h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+/* form */
+section .col-8{
+    border-style: dashed;
+}
+
+section .col-4 img{
+    width: 400px;
 }
 
 /* Tables Pacotes */
- 
 .pacotes{
     margin: 15px 20px;
 }
@@ -54,43 +69,8 @@ tbody tr:nth-child(odd){
     background-color: cadetblue;
 }
 
-/* article */
-
-main{
-    margin: 20px;
-}
-
-main h1{
-    font-size: 50px;
-    text-align: center;
-    margin: 30px;
-}
-
-.portal, .templo{
-    width: 100%;
-    display: inline-block;
-}
-.portal p{
-    float: left;
-    text-align: justify;
-}
-.portal img{
-    float: right;
-    width: 500px;
-}
-
-.templo img{
-    float: left;
-    width: 300px;
-    
-}
-.templo p{
-    text-align: justify;
-    float: right;
-}
-
 /* footer */
-div{
+.ultimaImage{
     background-image: url(/Img/wallpaperflare.com_wallpaper-10.jpg);
     width: 100%;
     height: 1000px;
