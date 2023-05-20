@@ -40,26 +40,44 @@ main h1{
     text-align: center;
     margin: 30px;
 }
+.portal{
+    border-radius: 40px;
+}
 
 /* form */
-section .col-xxl-8{
-    /* border-style: dashed; */
+section .card{
+    border-style: dashed;
+    border-width: 4px;
+    border-color: #690928;
+    background-color: antiquewhite;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.card .card-title{
+    background-image:url(/Img/imgbin_postage-stamps-mail-cancellation-png.png);
+    background-size:contain;
+    background-size: 300px;
+    background-position-x: center;
+    background-position-y: 45px;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 section .col-lg-auto img{
     width: 400px;
-    border-radius: 10px;
-    border-width: 5px;
+    border-radius: 40px;
+    border-width: 4px;
+    box-sizing:border-box;
     border-color:#690928;
-    border-style: dashed;
+    border-style:double;
+    margin-top: 10px;
 }
 
 /* Tables Pacotes */
-.pacotes{
-    margin: 15px 20px;
-}
-table{
-    width: 100%;
+
+main section .table{
+    margin: 15px 0px;
 }
 thead{
     background-color:rgba(127, 255, 232, 0.21);
@@ -67,6 +85,8 @@ thead{
 tbody tr:nth-child(odd){
     background-color: cadetblue;
 }
+
+
 
 /* footer */
 .ultimaImage{
